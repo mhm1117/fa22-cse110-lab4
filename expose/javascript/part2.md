@@ -35,38 +35,28 @@ loop are only used in the loop, and the const discountedPrice variable is
 being redeclared each iteration so it's not being changed and there's no
 error.
 12.
-	A. studen.name
-	B. student["Grade Year"]
-	C. student.greeting()
-	D. student['Favorite Teacher'].name
-	E. student.courseLoad[0]
+- A. studen.name
+- B. student["Grade Year"]
+- C. student.greeting()
+- D. student['Favorite Teacher'].name
+- E. student.courseLoad[0]
 13. 
-	A. '32' because because plus is used to join two strings, and js
-	automatically converts the 2 to a string as well.
-	B. 1 because other operations between strings convert the strings
-	to numbers (if it can be done) and then performs operation
-	C. 3 because null is converted to number value, which for null is 0
-	D. '3null' because '3' is a string, so the plus is used for joining 
-	two strings so it converts null to string of it and joins them
-	E. 1 because neither are strings, so it converts them to numbers 
-	(true = 1, null = 0) so its 1 + 0
-	F. 0 because the same as above but false = 0 so its 0 + 0
-	G. '3undefined' because '3' is a string, so it uses the plus to 
-	join the strings and converts undefined to string 'undefined' and 
-	joins them
-	H. NaN because of the minus it tries to convert them to numbers to
-	subtract, but undefined doesn't equal any number, so it's NaN
+- A. '32' because because plus is used to join two strings, and js automatically converts the 2 to a string as well.
+- B. 1 because other operations between strings convert the strings to numbers (if it can be done) and then performs operation
+- C. 3 because null is converted to number value, which for null is 0
+- D. '3null' because '3' is a string, so the plus is used for joining two strings so it converts null to string of it and joins them
+- E. 1 because neither are strings, so it converts them to numbers (true = 1, null = 0) so its 1 + 0
+- F. 0 because the same as above but false = 0 so its 0 + 0
+- G. '3undefined' because '3' is a string, so it uses the plus to join the strings and converts undefined to string 'undefined' and 
+joins them
+- H. NaN because of the minus it tries to convert them to numbers to subtract, but undefined doesn't equal any number, so it's NaN
 14.
-	A. true because '2' is converted to the number 2
-	B. false because it compares them as strings using lexigraphical
-	order where '2..' is greater than '1...'
-	C. true because it converts '2' to the number 2
-	D. false because === is strict conversion and checks if type is the
-	same, which it's not here
-	E. false because it converts true to a number (true = 1) which
-	doesn't equal 2
-	F. true, because Boolean() converts any non-'empty' value to true
-	and thats the same as true and they'er both boolean types
+- A. true because '2' is converted to the number 2
+- B. false because it compares them as strings using lexigraphical order where '2..' is greater than '1...'
+- C. true because it converts '2' to the number 2
+- D. false because === is strict conversion and checks if type is the same, which it's not here
+- E. false because it converts true to a number (true = 1) which doesn't equal 2
+- F. true, because Boolean() converts any non-'empty' value to true and thats the same as true and they'er both boolean types
 15. == checks if two values are equal but will automatically perform type
 conversions on the values in order to check, so they don't need to be the
 same type. But === is the strict equality operator and it cares about type
